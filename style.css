@@ -1,0 +1,76 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 250px;
+    color: #45505b;
+    
+   
+}
+.socialMediaSection {
+    line-height: 26px;
+}
+.socialMediaLinks {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #45505b;
+}
+.linkColor{
+    color: #45505b;
+}
+.profession {
+    color: rgb(5, 99, 187);;
+}
+
+
+
+
+.navbar {
+  border-color: 3px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  
+}
+
+.navItem {
+    margin-top: 5px;
+}
+
+.navItemBg {
+    background: #dfe2e4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-content: center;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 70px;
+  height: 35px;
+  background-color: rgb(5, 99, 187);
+  color: #fff;
+  text-align: center;
+  border-radius: 60px;
+  justify-content: center;
+  align-content: center;
+  /* display: inline-flex; */
+  padding: 8px 19px;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
