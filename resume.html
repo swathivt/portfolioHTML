@@ -2,64 +2,69 @@
 <html lang="en">
 
 <head>
+    <title>resume</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>resume</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/81e0f174bc.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="resume1">
     <div>
+    <!-- --------------------------------------------------Navbar Section --------------------------------------------------------------------------->
         <header>
-            <div style="position: fixed;">
-                <!-- --------------------------------------------------Navbar Section --------------------------------------------------------------------------->
+            <div >
+                
                 <div class="navbar">
                     <div class="tooltip navItem">
-                        <span class="tooltiptext">Home</span>
-                        <a href="#home">
-                            <span class="navItemBg"><i class="fa-solid fa-house"></i></span>
+                        <a href="index.html">
+                            <div class="tooltiptext"><i class="fa-solid fa-house"></i> Home</div>
                         </a>
+                        <div class="navItemBg"><i class="fa-solid fa-house circle-icon" ></i></div>
                     </div>
 
-                    <div class="tooltip navItem">
-                        <span class="tooltiptext">About</span>
-                        <a href="#About">
-                            <span class="navItemBg"> <i class="fa-regular fa-user"></i></span>
+                    <!-- <div class="tooltip navItem">
+                        <a href="about.html">
+                            <div class="tooltiptext"><i class="fa-regular fa-user"></i> About</div>
                         </a>
+                        <div class="navItemBg"> <i class="fa-regular fa-user  circle-icon" style="font-weight: bold;"></i></div>
+                        
+                    </div> -->
+
+                    <div class="tooltip navItem ">
+                        <a href="#resume.html">
+                            <div class="tooltiptext "><i class="fa-regular fa-file-word "></i> Resume</div>
+
+                        </a>
+                        <div class="navItemBg"><i class="fa-regular fa-file-word  circle-icon active"></i></div>
+
                     </div>
 
-                    <div class="tooltip navItem">
-                        <span class="tooltiptext">Resume</span>
-                        <a href="#resume">
-                            <span class="navItemBg"><i class="fa-regular fa-file-word"></i></span>
+                    <!-- <div class="tooltip navItem">
+                        <a href="portfolio.html">
+                            <div class="tooltiptext"><i class="fa-regular fa-briefcase"></i> Portfolio</div>
                         </a>
-                    </div>
+                            <div class="navItemBg"><i class="fa-regular fa-briefcase  circle-icon" style="font-weight: bold;"></i></div>
+                        
+                    </div> -->
 
                     <div class="tooltip navItem">
-                        <span class="tooltiptext">Portfolio</span>
-                        <a href="#portfolio">
-                            <span class="navItemBg"><i class="fa-regular fa-briefcase"></i></span>
+                        <a href="contact.html">
+                            <div class="tooltiptext"><i class="fa-regular fa-envelope"></i> Contact</div>
                         </a>
-                    </div>
-
-                    <div class="tooltip navItem">
-                        <span class="tooltiptext">Contact</span>
-                        <a href="#contact">
-                            <span class="navItemBg"><i class="fa-regular fa-envelope"></i></span>
+                        <div class="navItemBg"><i class="fa-regular fa-envelope  circle-icon" style="font-weight: bold;"></i></div>
                         </a>
                     </div>
                 </div>
             </div>
         </header>
-    </div>
-    <div style="margin-left: 50px">
-        <div class="fixed-content">
-            <h1>Resume</h1>
-        </div>
-        <div>
-        <section class="resumeContent">
+    
+    <div style="margin-left: 50px; ">
+        <div class="resumeContent">
+            <div class="fixed-content">
+                <h1>Resume</h1>
+            </div>
             <div class="resumeCol">
                 <h3 class="resume-title">Summary</h3>
                 <h4>Swathy Velagandula</h4>
@@ -79,7 +84,7 @@
                         <h4>
                             Bachelor of Science - Electronics & Communications Engineering
                         </h4>
-                        <span><i>Kamal Institute of Technology and Sciences, India</i></span>
+                        <span><i>Kamala Institute of Technology and Sciences, India</i></span>
                     </li>
                     <li>
                         <h4>Introduction to web development</h4>
@@ -123,13 +128,28 @@
                     </li>
                     <li>Collected payments, issued receipts, and updated accounts to reflect new balances.
                         Website maintenance and enhancements.
-                    </li>                    
+                    </li>
                 </ul>
             </div>
+        </div>
+    </div>
+</div>
+    <footer id="footer" style="position: relative;">
+        <div class="contactFooter">
+            <h1>Swathy Velagandula</h1>
+            <p>To work in a <strong>globally competitive environment</strong> and <strong>strive for professional growth</strong> and personal development.
+            </p>
 
-        </section>
-    </div>
-    </div>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter icon"></i></a>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f icon"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square icon"></i></a>
+            <a href="https://www.skype.com"><i class="fa-brands fa-skype icon"></i></a>
+            <a href="https://ca.linkedin.com"><i class="fa-brands fa-linkedin-in icon"></i></a>
+            <p style="font-size: 13px;">&copy Copyright <strong>MyResume.</strong> All rights reserved.</p>
+            <p style="font-size: 13px;">Designed by <a href="www.w3scholl.com" style="text-decoration: none; color:rgb(5, 99, 187);">HTML&CSS</a></p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
