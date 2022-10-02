@@ -202,7 +202,13 @@ text-align: center;
   color: rgb(5, 99, 187);
   }
 
+/*----------------------------------------------Portfolio Page---------------------------------------------------*/
 
+.links, a {
+  text-decoration: none;
+  color:#3d96ef;
+  text-align: center;
+}
 
 
 
