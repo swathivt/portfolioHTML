@@ -122,6 +122,12 @@ header{
 
 
 /* ----------------------------------------------Resume Page----------------------------------------------------*/
+.resume-content {
+  margin: 0 auto;
+  width: 70%;
+}
+
+
 #resume{
   margin-left: 150px;
 }
@@ -138,15 +144,17 @@ header{
 }
 
 .resumeCol {
-width: 50%; 
-float: left;
+  margin: 0 auto;
+  width: 50%; 
+  float: left;
+
 
 }
 
 .resumeContent .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  /* margin-top: 10px; */
   margin-bottom: 20px;
   color: #45505b;
 }
@@ -154,7 +162,7 @@ h4 li {
   list-style-type: none;
 }
 .webDevelopment{
-  margin-top: 65px;
+  margin-top: 40px;
 }
 
 
@@ -187,6 +195,14 @@ h4 li {
 }
 /*----------------------------------------------About Page---------------------------------------------------*/
 
+.about-content {
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+
+
 .aboutContent {
 justify-content: center;
 margin-left: 20%; 
@@ -217,11 +233,38 @@ text-align: center;
 
 /*----------------------------------------------Portfolio Page---------------------------------------------------*/
 
+
+.portfolio-content {
+  margin: 0 auto;
+  width: 70%;
+}
 .links, a {
   text-decoration: none;
-  color:#3d96ef;
+  color:#0f58f6;
   text-align: center;
+  
+  /* font-weight: bold; */
 }
+.links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.image-link {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2rem;
+}
+
+
+
+
+.portfolio-one, .portfolio-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 
 
 
