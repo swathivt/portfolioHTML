@@ -8,142 +8,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/81e0f174bc.js" crossorigin="anonymous"></script>
+
+  <script src="index.js"></script>
 </head>
 
 <body>
-  <!----------------------------------------------------Header---------------------------------------------------->
-  <div>
-    <div>
-      <header>
-        <div>
-          <div class="navbar">
-            <div class="tooltip navItem">
-              <a href="index.html">
-                <div class="tooltiptext"><i class="fa-solid fa-house"></i> Home</div>
-              </a>
-              <div class="navItemBg"><i class="fa-solid fa-house circle-icon active"></i></div>
+  <div id = "container">
+    <!----------------------------------------------------Header---------------------------------------------------->
+
+
+
+    <header>
+      <div>
+        <div class="navbar">
+          <div class="tooltip navItem">
+            <a href="index.html">
+              <div class="tooltiptext"><i class="fa-solid fa-house"></i> Home</div>
+            </a>
+            <div class="navItemBg"><i class="fa-solid fa-house circle-icon active"></i></div>
+          </div>
+
+          <div class="tooltip navItem">
+            <a href="about.html">
+              <div class="tooltiptext"><i class="fa-regular fa-user"></i> About</div>
+            </a>
+            <div class="navItemBg"> <i class="fa-regular fa-user  circle-icon" style="font-weight: bold;"></i></div>
+
+          </div>
+
+          <div class="tooltip navItem ">
+            <a href="resume.html">
+              <div class="tooltiptext "><i class="fa-regular fa-file-word "></i> Resume</div>
+
+            </a>
+            <div class="navItemBg"><i class="fa-regular fa-file-word  circle-icon "></i></div>
+
+          </div>
+
+          <div class="tooltip navItem">
+            <a href="portfolio.html">
+              <div class="tooltiptext"><i class="fa-regular fa-briefcase"></i> Portfolio</div>
+            </a>
+            <div class="navItemBg"><i class="fa-regular fa-briefcase  circle-icon" style="font-weight: bold;"></i>
             </div>
 
-            <div class="tooltip navItem">
-              <a href="about.html">
-                <div class="tooltiptext"><i class="fa-regular fa-user"></i> About</div>
-              </a>
-              <div class="navItemBg"> <i class="fa-regular fa-user  circle-icon" style="font-weight: bold;"></i></div>
+          </div>
 
+          <div class="tooltip navItem">
+            <a href="contact.html">
+              <div class="tooltiptext"><i class="fa-regular fa-envelope"></i> Contact</div>
+            </a>
+            <div class="navItemBg"><i class="fa-regular fa-envelope  circle-icon" style="font-weight: bold;"></i>
             </div>
-
-            <div class="tooltip navItem ">
-              <a href="resume.html">
-                <div class="tooltiptext "><i class="fa-regular fa-file-word "></i> Resume</div>
-
-              </a>
-              <div class="navItemBg"><i class="fa-regular fa-file-word  circle-icon "></i></div>
-
-            </div>
-
-            <div class="tooltip navItem">
-              <a href="portfolio.html">
-                <div class="tooltiptext"><i class="fa-regular fa-briefcase"></i> Portfolio</div>
-              </a>
-              <div class="navItemBg"><i class="fa-regular fa-briefcase  circle-icon" style="font-weight: bold;"></i>
-              </div>
-
-            </div>
-
-            <div class="tooltip navItem">
-              <a href="contact.html">
-                <div class="tooltiptext"><i class="fa-regular fa-envelope"></i> Contact</div>
-              </a>
-              <div class="navItemBg"><i class="fa-regular fa-envelope  circle-icon" style="font-weight: bold;"></i>
-              </div>
-              </a>
-            </div>
+            </a>
           </div>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
 
-    <div style="justify-content: center;margin-left: 20%; margin-right: 20%;">
 
-    
 
-    <h1>About Me</h1>
-    <!-- <div style="margin-left: 300px; margin-right: 200px;  font-size: 20px;"> -->
-      <i >I am looking for an entry-level position to kickstart my career in the IT industry as a full-stack developer. I wish to work in a dynamic organization that will contribute to my professional and personal growth while contributing to the company's growth.
-      </i>
-      <div class="imgDeveloper">
-        <div>
-          <img src="myThumnailPic.png" alt="myPic">
-        </div>
-        <div>
-          <h3>Web Designer & Developer</h3>
-          <p>Worked as a Web Designer at  <strong> DCS Technologies</strong> as part of the practicum.
+
+
+
+    <!----------------------------------------------------Content---------------------------------------------------->
+
+
+    <div id="body-container">
+      <div class="typed-hero">
+        <div class="typed-animation">
+          <p style="font-size: xx-large;">Swathy Velagandula</p>
+          <p style="font-size: xx-large; text-align: center;">I'm&nbsp;
+            <span class="txt-rotate" data-period="2000" data-rotate='[  "Designer", "Developer", "Freelancer" ]'></span>
           </p>
-
-          <ul>
-            <div class="biodata">
-              <div>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>Birthday</strong> <span>10th July 2022</span></li>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>Website</strong>
-                  <span>www.example.com</span>
-                </li>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>Phone</strong> <span>778 957
-                    4392</span></li>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>City</strong>
-                  <span>Burnaby</span>
-                </li>
-
-              </div>
-              <div>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>Age</strong> <span> xx</span>
-                </li>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>Degree</strong>
-                  <span>B.Tech(ECE)</span>
-                </li>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>Email</strong>
-                  <span>svanc2121@gmail.com</span>
-                </li>
-                <li class="biodataItems"><i class="fa-solid fa-greater-than"></i> <strong>Freelance</strong>
-                  <span>Available</span>
-                </li>
-              </div>
-            </div>
-          </ul>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor. 
-           </p>
         </div>
-
+        <div class="hero">
+          <!-- <img src="/images/istockphoto-1304692952-612x612.jpg" /> -->
+        </div>
       </div>
     </div>
-  </div>
-    
+
+
+
+    <!------------------------------------------------- footer------------------------------------------------------->
+    <footer id="footer">
+      <div class="contactFooter">
+        <h1>Swathy Velagandula</h1>
+        <p>To work in a <strong>globally competitive environment</strong> and <strong>strive for professional
+            growth</strong> and personal development.
+        </p>
+
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter icon"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f icon"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram-square icon"></i></a>
+        <a href="https://www.skype.com" target="_blank"><i class="fa-brands fa-skype icon"></i></a>
+        <a href="https://ca.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>
+        <p style="font-size: 13px;">&copy Copyright <strong>MyResume.</strong> All rights reserved.</p>
+        <p style="font-size: 13px;">Designed by <a href="www.w3scholl.com"
+            style="text-decoration: none; color:rgb(5, 99, 187);">HTML&CSS</a></p>
+      </div>
+    </footer>
 
 
   </div>
-
-  <!------------------------------------------------- footer------------------------------------------------------->
-  <footer id="footer">
-    <div class="contactFooter">
-      <h1>Swathy Velagandula</h1>
-      <p>To work in a <strong>globally competitive environment</strong> and <strong>strive for professional
-          growth</strong> and personal development.
-      </p>
-
-      <a href="https://twitter.com"><i class="fa-brands fa-twitter icon"></i></a>
-      <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f icon"></i></a>
-      <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square icon"></i></a>
-      <a href="https://www.skype.com"><i class="fa-brands fa-skype icon"></i></a>
-      <a href="https://ca.linkedin.com"><i class="fa-brands fa-linkedin-in icon"></i></a>
-      <p style="font-size: 13px;">&copy Copyright <strong>MyResume.</strong> All rights reserved.</p>
-      <p style="font-size: 13px;">Designed by <a href="www.w3scholl.com"
-          style="text-decoration: none; color:rgb(5, 99, 187);">HTML&CSS</a></p>
-    </div>
-  </footer>
-
-
 </body>
 
 </html>

@@ -11,126 +11,131 @@
 </head>
 
 <body>
-    <!-- --------------------------------------------------Header Section--------------------------------------------->
-    <header>
-        <div>
+    <div id = "container">
+        <!-- --------------------------------------------------Header Section--------------------------------------------->
+        <header>
+            <div>
 
-            <div class="navbar">
-                <div class="tooltip navItem">
-                    <a href="index.html">
-                        <div class="tooltiptext"><i class="fa-solid fa-house"></i> Home</div>
-                    </a>
-                    <div class="navItemBg"><i class="fa-solid fa-house circle-icon"></i></div>
+                <div class="navbar">
+                    <div class="tooltip navItem">
+                        <a href="index.html">
+                            <div class="tooltiptext"><i class="fa-solid fa-house"></i> Home</div>
+                        </a>
+                        <div class="navItemBg"><i class="fa-solid fa-house circle-icon"></i></div>
+                    </div>
+
+                    <div class="tooltip navItem">
+                        <a href="about.html">
+                            <div class="tooltiptext"><i class="fa-regular fa-user"></i> About</div>
+                        </a>
+                        <div class="navItemBg"> <i class="fa-regular fa-user  circle-icon"></i></div>
+
+                    </div>
+
+                    <div class="tooltip navItem">
+                        <a href="resume.html">
+                            <div class="tooltiptext"><i class="fa-regular fa-file-word"></i> Resume</div>
+                        </a>
+                        <div class="navItemBg"><i class="fa-regular fa-file-word  circle-icon"></i></div>
+                        </a>
+                    </div>
+
+                    <div class="tooltip navItem">
+                        <a href="portfolio.html">
+                            <div class="tooltiptext"><i class="fa-regular fa-briefcase"></i> Portfolio</div>
+                        </a>
+                        <div class="navItemBg"><i class="fa-regular fa-briefcase  circle-icon"></i></div>
+
+                    </div>
+
+                    <div class="tooltip navItem">
+                        <a href="contact.html">
+                            <div class="tooltiptext"><i class="fa-regular fa-envelope"></i> Contact</div>
+                        </a>
+                        <div class="navItemBg"><i class="fa-regular fa-envelope  circle-icon active"></i></div>
+                        </a>
+                    </div>
+
+
+
                 </div>
-
-                <div class="tooltip navItem">
-                    <a href="about.html">
-                        <div class="tooltiptext"><i class="fa-regular fa-user"></i> About</div>
-                    </a>
-                    <div class="navItemBg"> <i class="fa-regular fa-user  circle-icon"></i></div>
-
-                </div>
-
-                <div class="tooltip navItem">
-                    <a href="resume.html">
-                        <div class="tooltiptext"><i class="fa-regular fa-file-word"></i> Resume</div>
-                    </a>
-                    <div class="navItemBg"><i class="fa-regular fa-file-word  circle-icon"></i></div>
-                    </a>
-                </div>
-
-                <div class="tooltip navItem">
-                    <a href="portfolio.html">
-                        <div class="tooltiptext"><i class="fa-regular fa-briefcase"></i> Portfolio</div>
-                    </a>
-                    <div class="navItemBg"><i class="fa-regular fa-briefcase  circle-icon"></i></div>
-
-                </div>
-
-                <div class="tooltip navItem">
-                    <a href="contact.html">
-                        <div class="tooltiptext"><i class="fa-regular fa-envelope"></i> Contact</div>
-                    </a>
-                    <div class="navItemBg"><i class="fa-regular fa-envelope  circle-icon active"></i></div>
-                    </a>
-                </div>
-
-
 
             </div>
 
-        </div>
-        </div>
-    </header>
-    <!-----------------------------------------------Contact Section-------------------------------------------------->
-    <h1>Contact</h1>
-    <div class="containerContactSection">
-        <div class="address">
-            <div class="location">
+        </header>
+        <!-----------------------------------------------Contact Section-------------------------------------------------->
+        <h1>Contact</h1>
+        <div id="body-container">
+            <div class="containerContactSection">
+                <div class="address">
+                    <div class="location">
+                        <div>
+                            <i class="fa-solid fa-location-dot addressIcon"></i>
+                        </div>
+                        <div class="contactLocation">
+                            <span>Location:</span><br>
+                            <span>Burnaby,BC</span>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <div>
+                            <i class="fa-solid fa-envelope addressIcon"></i>
+                        </div>
+                        <div class="contactEmail">
+                            <span>Email:</span><br>
+                            <span>svanc2121@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="call">
+                        <div>
+                            <i class="fa-solid fa-mobile-screen-button addressIcon"></i>
+                        </div>
+                        <div class="contactCall">
+                            <span>Call:</span><br>
+                            <span>778 957 4392</span>
+                        </div>
+                    </div>
+                </div>
+
                 <div>
-                    <i class="fa-solid fa-location-dot addressIcon"></i>
-                </div>
-                <div class="contactLocation">
-                    <span>Location:</span><br>
-                    <span>Burnaby,BC</span>
-                </div>
-            </div>
-            <div class="email">
-                <div>
-                    <i class="fa-solid fa-envelope addressIcon"></i>
-                </div>
-                <div class="contactEmail">
-                    <span>Email:</span><br>
-                    <span>svanc2121@gmail.com</span>
-                </div>
-            </div>
-            <div class="call">
-                <div>
-                    <i class="fa-solid fa-mobile-screen-button addressIcon"></i>
-                </div>
-                <div class="contactCall">
-                    <span>Call:</span><br>
-                    <span>778 957 4392</span>
+                    <form id="form" style="margin-top: 73px;">
+                        <div class="yourName">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" id="subject" placeholder="Subject" required>
+
+                        <textarea id="message" placeholder="Message" rows=5 required class="formEleCent"></textarea>
+                        <div class="text-center">
+                            <button type="submit" class="submit">Send Message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+        <!---------------------------------------------Footer Section----------------------------------------------------->
 
-        <div>
-            <form id="form" style="margin-top: 73px;">
-                <div class="yourName">
-                    <input type="text" id="name" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Your Email" required>
-                </div>
-                <input type="text" id="subject" placeholder="Subject" required>
 
-                <textarea id="message" placeholder="Message" rows=5 required class="formEleCent"></textarea>
-                <div class="text-center">
-                    <button type="submit" class="submit">Send Message</button>
-                </div>
-            </form>
-        </div>
+        <footer id="footer">
+            <div class="contactFooter">
+                <h1>Swathy Velagandula</h1>
+                <p>To work in a <strong>globally competitive environment</strong> and <strong>strive for professional
+                        growth</strong> and personal development.
+                </p>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter icon "></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f icon"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i
+                        class="fa-brands fa-instagram-square icon"></i></a>
+                <a href="https://www.skype.com" target="_blank"><i class="fa-brands fa-skype icon"></i></a>
+                <a href="https://ca.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in icon"></i></a>
+                <p style="font-size: 13px;">&copy Copyright <strong>MyResume.</strong> All rights reserved.
+                </p>
+                <p style="font-size: 13px;">Designed by <a href="www.w3school.com"
+                        style="text-decoration: none; color:rgb(5, 99, 187);">HTML&CSS</a></p>
+            </div>
+        </footer>
+
     </div>
-    <!---------------------------------------------Footer Section----------------------------------------------------->
-
-
-    <footer id="footer">
-        <div class="contactFooter">
-            <h1>Swathy Velagandula</h1>
-            <p>To work in a <strong>globally competitive environment</strong> and <strong>strive for professional
-                    growth</strong> and personal development.
-            </p>
-            <a href="https://twitter.com"><i class="fa-brands fa-twitter icon "></i></a>
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f icon"></i></a>
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square icon"></i></a>
-            <a href="https://www.skype.com"><i class="fa-brands fa-skype icon"></i></a>
-            <a href="https://ca.linkedin.com"><i class="fa-brands fa-linkedin-in icon"></i></a>
-            <p style="font-size: 13px;">&copy Copyright <strong>MyResume.</strong> All rights reserved.
-            </p>
-            <p style="font-size: 13px;">Designed by <a href="www.w3school.com"
-                    style="text-decoration: none; color:rgb(5, 99, 187);">HTML&CSS</a></p>
-        </div>
-    </footer>
-
 </body>
 
 </html>
